@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+client_secret.json
+token.json
+credentials.json
+
+# Personal documents
+*.pdf
+
+# Database
+instance/
+*.db
+*.sqlite3
+
+# Uploaded files and vector indexes
+uploaded_pdfs/
+faiss_index/
+faiss_indices/
+
+# Profile uploads
+static/profile_pics/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local backups and credential experiments
+*.backup
+adc_test.py
+oauth_test.py
+load_creds.py
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
